@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbody {
+    display: flex;
+    flex: initial;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#888888
+}
+
+.upper {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    width: 13vh;
+    height: 10vh;
+}
+
+textarea {
+    resize: none;
+    flex: 12;
+}
+
+.result {
+    flex: 0.2;
+    color:#eeeeee;
+    text-align:center;
+    padding: 1vh;
+}
+
+.lower {
+    display: flex;
+    flex: none;
+    width: 13vh;
+    height:16vh;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 10px;
+}
+
+.lower > div {
+    flex: initial;
+    display: flex;
+    width: 3vh;
+    height: 3vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #aaaaaa;
+    border-radius: 5px;
+}
+
+.lower > div:hover {
+    background-color: #cfcfcf;
+    outline-color: #eeeeee;
+}
