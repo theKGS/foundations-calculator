@@ -21,7 +21,6 @@ for (btn of buttons) {
             textfield.textContent = str;
 
             applyOperator();
-            console.log("value1 = " + value1 + " value2 = " + value2 + " op = " + operator);
             operator = str;
             return;
         }
@@ -33,8 +32,6 @@ for (btn of buttons) {
             }
 
             applyOperator();
-
-            console.log("value1 = " + value1 + " value2 = " + value2 + " op = " + operator);
             return;
         }
 
