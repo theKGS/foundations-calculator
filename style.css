@@ -23,7 +23,8 @@ body {
 
 textarea {
     resize: none;
-    flex: 12;
+    height: 4vh;;
+    flex: auto;
 }
 
 .result {
