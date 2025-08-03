@@ -1,5 +1,7 @@
 # foundations-calculator
 
-Non-standard implementation which I admit isn't strictly according to the specifications
-of the project. I wanted to try using the math.js evaluate function. The current plan is
-to rewrite it to more accurately match the requirements.
+This version of the calculator has been fixed to better match the specification in
+the project assignment itself. My initial implementation made use of math.js and the
+evaluate function it provides.
+
+I was too lazy to implement decimals.
